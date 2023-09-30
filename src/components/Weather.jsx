@@ -6,7 +6,7 @@ export const ApiWeather = () => {
     
 <<<<<<< HEAD
   const [inputCity, setInputCity] = useState(String);
-  const APIkey = 'c8f41559fe0c636fd829970996a27b10';
+  const APIkey = '';
 =======
   const [inputCity, setInputCity] = useState('');
   const APIkey = '';
