@@ -1,11 +1,12 @@
 
 import './App.css'
-import { Api } from './components/api'
+import { ApiWeather} from './components/Weather'
+
 function App() {
 
   return (
     <>
-    <Api/>
+    <ApiWeather/>
     </>
   )
 }
