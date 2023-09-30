@@ -4,8 +4,13 @@ import {CgSearch} from 'react-icons/cg'
 
 export const ApiWeather = () => { 
     
+<<<<<<< HEAD
   const [inputCity, setInputCity] = useState(String);
   const APIkey = 'c8f41559fe0c636fd829970996a27b10';
+=======
+  const [inputCity, setInputCity] = useState('');
+  const APIkey = '';
+>>>>>>> 6999e763a8d4bf0fd2df0f64026e221de3ec58b0
 
   const [climaData, setClimaData] = useState(null);
 
